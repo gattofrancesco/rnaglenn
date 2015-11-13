@@ -8,12 +8,12 @@ Copy the entire rnaglenn folder to your home directory on Glenn and then execute
 
 ```
 $ cd rnaglenn
-$ ./generate_batch_script.sh
+$ ./setup_rnaseq_pipeline_env.sh
 ```
 
 This will set up a virtual environment where dependencies will be
 installed.
 
-Follow the instructions that the `generate_batch_script.sh` script
+Follow the instructions that the `setup_rnaseq_pipeline_env.sh` script
 prints.
 
