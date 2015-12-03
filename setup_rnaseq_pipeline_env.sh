@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VIRTUALENV_ROOT=$HOME/.rnaglenn
+VIRTUALENV_ROOT=$HOME/.rnaglenn3
 
 module load python/py27/2.7.6
 module load virtualenv/1.11.6
@@ -9,7 +9,7 @@ echo -n "Creating virtual environment..."
 
 if [ ! -d $VIRTUALENV_ROOT ]
 then
-    virtualenv $VIRTUALENV_ROOT > rnaseq_pipeline_virtualenv.log 2>&1
+    virtualenv -p /usr/bin/python3.4 $VIRTUALENV_ROOT > rnaseq_pipeline_virtualenv.log 2>&1
 fi
 
 source $VIRTUALENV_ROOT/bin/activate
