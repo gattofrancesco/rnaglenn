@@ -17,3 +17,8 @@ installed.
 Follow the instructions that the `setup_rnaseq_pipeline_env.sh` script
 prints.
 
+
+## License
+
+RNA-Glenn is licensed under the MIT license. See [LICENSE](LICENSE)
+for details.
